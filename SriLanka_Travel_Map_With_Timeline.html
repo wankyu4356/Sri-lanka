@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f9faf21a1d017284b2e5b9f8222996d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f9faf21a1d017284b2e5b9f8222996d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f9faf21a1d017284b2e5b9f8222996d = L.map(
+                "map_0f9faf21a1d017284b2e5b9f8222996d",
+                {
+                    center: [6.5, 80.7],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f3f2c77c6bb6f5fa09d823367ccfa45 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0f9faf21a1d017284b2e5b9f8222996d);
+        
+    
+            var marker_968c0cd991142f7b52f397891d0ed7e0 = L.marker(
+                [6.9271, 79.8612],
+                {}
+            ).addTo(map_0f9faf21a1d017284b2e5b9f8222996d);
+        
+    
+            var icon_ea31eaeaffdf18353ccaf7cb68dcd3fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_968c0cd991142f7b52f397891d0ed7e0.setIcon(icon_ea31eaeaffdf18353ccaf7cb68dcd3fd);
+        
+    
+        var popup_6aea268bef2a2244183dbee3ba6dfc87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89de0ab6275ed869f2f597352c8fd426 = $(`<div id="html_89de0ab6275ed869f2f597352c8fd426" style="width: 100.0%; height: 100.0%;">Colombo (Apr 19 - Night)</div>`)[0];
+            popup_6aea268bef2a2244183dbee3ba6dfc87.setContent(html_89de0ab6275ed869f2f597352c8fd426);
+        
+
+        marker_968c0cd991142f7b52f397891d0ed7e0.bindPopup(popup_6aea268bef2a2244183dbee3ba6dfc87)
+        ;
+
+        
+    
+    
+            marker_968c0cd991142f7b52f397891d0ed7e0.bindTooltip(
+                `<div>
+                     Colombo (Apr 19 - Night)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a7ae6ec5312c66180506637c3aee465 = L.marker(
+                [5.943, 80.4582],
+                {}
+            ).addTo(map_0f9faf21a1d017284b2e5b9f8222996d);
+        
+    
+            var icon_f63a9dd311e831b2e347f47940397683 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6a7ae6ec5312c66180506637c3aee465.setIcon(icon_f63a9dd311e831b2e347f47940397683);
+        
+    
+        var popup_dea9331c6dd167536a3ef7168e2a92a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cf49ac86bfd0c811fa66eacb8f0d635 = $(`<div id="html_9cf49ac86bfd0c811fa66eacb8f0d635" style="width: 100.0%; height: 100.0%;">Mirissa (Apr 20-21)</div>`)[0];
+            popup_dea9331c6dd167536a3ef7168e2a92a3.setContent(html_9cf49ac86bfd0c811fa66eacb8f0d635);
+        
+
+        marker_6a7ae6ec5312c66180506637c3aee465.bindPopup(popup_dea9331c6dd167536a3ef7168e2a92a3)
+        ;
+
+        
+    
+    
+            marker_6a7ae6ec5312c66180506637c3aee465.bindTooltip(
+                `<div>
+                     Mirissa (Apr 20-21)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d924784662939b960dd3c668b84f93e1 = L.marker(
+                [6.4759, 80.891],
+                {}
+            ).addTo(map_0f9faf21a1d017284b2e5b9f8222996d);
+        
+    
+            var icon_ddc8edc152038e9d357b00bf16728e28 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d924784662939b960dd3c668b84f93e1.setIcon(icon_ddc8edc152038e9d357b00bf16728e28);
+        
+    
+        var popup_e708f10d1c4d701c5529ff7e26f0379e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_48e3971bfbfc817a9486868109d2fe6d = $(`<div id="html_48e3971bfbfc817a9486868109d2fe6d" style="width: 100.0%; height: 100.0%;">Udawalawe NP (Apr 22 Morning)</div>`)[0];
+            popup_e708f10d1c4d701c5529ff7e26f0379e.setContent(html_48e3971bfbfc817a9486868109d2fe6d);
+        
+
+        marker_d924784662939b960dd3c668b84f93e1.bindPopup(popup_e708f10d1c4d701c5529ff7e26f0379e)
+        ;
+
+        
+    
+    
+            marker_d924784662939b960dd3c668b84f93e1.bindTooltip(
+                `<div>
+                     Udawalawe NP (Apr 22 Morning)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e50de1771404181c0c5cd407e4ba49a = L.marker(
+                [6.8663, 81.0464],
+                {}
+            ).addTo(map_0f9faf21a1d017284b2e5b9f8222996d);
+        
+    
+            var icon_0f5691973d82a6f9687fb2d4c13cd480 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e50de1771404181c0c5cd407e4ba49a.setIcon(icon_0f5691973d82a6f9687fb2d4c13cd480);
+        
+    
+        var popup_d29558f08f9130e56570e6dfb0aabe2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccee6499ce978dec0fef8c31ef6902a1 = $(`<div id="html_ccee6499ce978dec0fef8c31ef6902a1" style="width: 100.0%; height: 100.0%;">Ella (Apr 22-23)</div>`)[0];
+            popup_d29558f08f9130e56570e6dfb0aabe2b.setContent(html_ccee6499ce978dec0fef8c31ef6902a1);
+        
+
+        marker_1e50de1771404181c0c5cd407e4ba49a.bindPopup(popup_d29558f08f9130e56570e6dfb0aabe2b)
+        ;
+
+        
+    
+    
+            marker_1e50de1771404181c0c5cd407e4ba49a.bindTooltip(
+                `<div>
+                     Ella (Apr 22-23)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0e4b87c3b80fc52378f28f7b9e7b6b5 = L.marker(
+                [6.9344, 79.8428],
+                {}
+            ).addTo(map_0f9faf21a1d017284b2e5b9f8222996d);
+        
+    
+            var icon_6ff8c0858d2dc42e778184ea79214375 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c0e4b87c3b80fc52378f28f7b9e7b6b5.setIcon(icon_6ff8c0858d2dc42e778184ea79214375);
+        
+    
+        var popup_91d38f3774604e3bf7283273f91dfa34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_566d1a2726eb4c098b37692465009b61 = $(`<div id="html_566d1a2726eb4c098b37692465009b61" style="width: 100.0%; height: 100.0%;">Colombo Fort Station (Apr 24 Early AM)</div>`)[0];
+            popup_91d38f3774604e3bf7283273f91dfa34.setContent(html_566d1a2726eb4c098b37692465009b61);
+        
+
+        marker_c0e4b87c3b80fc52378f28f7b9e7b6b5.bindPopup(popup_91d38f3774604e3bf7283273f91dfa34)
+        ;
+
+        
+    
+    
+            marker_c0e4b87c3b80fc52378f28f7b9e7b6b5.bindTooltip(
+                `<div>
+                     Colombo Fort Station (Apr 24 Early AM)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d32ad6327945f1124f8b69692c44725 = L.marker(
+                [7.18, 79.8841],
+                {}
+            ).addTo(map_0f9faf21a1d017284b2e5b9f8222996d);
+        
+    
+            var icon_86cb288c4f73ef80871d83fb8d7e2289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3d32ad6327945f1124f8b69692c44725.setIcon(icon_86cb288c4f73ef80871d83fb8d7e2289);
+        
+    
+        var popup_0d747d26e45268fa470a69f2357fef18 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6f5e0f005af80d976078c19a17018bb = $(`<div id="html_b6f5e0f005af80d976078c19a17018bb" style="width: 100.0%; height: 100.0%;">Bandaranaike Airport (Apr 24 Noon)</div>`)[0];
+            popup_0d747d26e45268fa470a69f2357fef18.setContent(html_b6f5e0f005af80d976078c19a17018bb);
+        
+
+        marker_3d32ad6327945f1124f8b69692c44725.bindPopup(popup_0d747d26e45268fa470a69f2357fef18)
+        ;
+
+        
+    
+    
+            marker_3d32ad6327945f1124f8b69692c44725.bindTooltip(
+                `<div>
+                     Bandaranaike Airport (Apr 24 Noon)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            ant_path_7e218c3141b508cc8dbcf01e6dd4a21d = L.polyline.antPath(
+              [[6.9271, 79.8612], [5.943, 80.4582], [6.4759, 80.891], [6.8663, 81.0464], [6.9344, 79.8428], [7.18, 79.8841]],
+              {"bubblingMouseEvents": true, "color": "green", "dashArray": [10, 20], "dashOffset": null, "delay": 1000, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "paused": false, "pulseColor": "#FFFFFF", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+        ).addTo(map_0f9faf21a1d017284b2e5b9f8222996d);
+        
+</script>
+</html>
